@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/998802c292.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+    <div
+      class="max-h-screen bg-[url('./images/barista.jpg')] bg-cover bg-center h-screen"
+    >
+      <!-- navbar -->
+      <div class="flex flex-row justify-between items-center p-5 text-white">
+        <div class="flex flex-row items-center gap-3">
+          <img src="/images/coffee-beans.png" alt="logo" class="w-12 h-12" />
+          <h1 class="font-bold text-3xl">Kofnein</h1>
+        </div>
+        <div class="flex flex-row items-center gap-7 font-semibold">
+          <a href="/">HOME</a>
+          <a href="/">MENU</a>
+          <a href="/">ABOUT</a>
+          <a href="/">PAGES</a>
+          <a href="/">BLOG</a>
+          <a href="/">CONTACT</a>
+        </div>
+        <div>
+          <button class="rounded-md bg-[#b99272] font-semibold py-2 px-5">
+            BOOK A TABLE
+          </button>
+        </div>
+      </div>
+
+      <!-- hero section -->
+      <div class="text-white p-5 absolute bottom-16">
+        <h1 class="font-bold text-7xl/24">The Surabayan <br />Coffee Shop</h1>
+        <div class="flex flex-row gap-5 mt-5 items-center">
+          <button class="px-6 py-3 font-semibold rounded-md bg-[#b99272]">
+            EXPLORE MORE <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <button class="px-6 py-3 font-semibold rounded-md bg-[#0e1317]">
+            GET DELIVERY
+          </button>
+        </div>
+      </div>
+
+      <!-- info -->
+      <div
+        class="p-2 bg-black flex flex-row justify-between items-center absolute bottom-0 w-full"
+      >
+        <p class="text-[#b99272]">
+          <i class="fa-regular fa-clock text-[#b99272]"></i> OPENING HOURS:
+          <span class="text-white">08:00 AM - 09:00 PM</span>
+        </p>
+        <div class="flex flex-row items-center gap-5 text-white">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div>
+          <p class="text-[#b99272]">
+            <i class="fa-solid fa-location-dot text-[#b99272]"></i> LOCATION:
+            <span class="text-white">KETINTANG PTT, SURABAYA</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- about us -->
+    <div
+      class="flex flex-row justify-center items-center p-5 gap-20 bg-[#0e1317] text-white max-h-screen"
+    >
+      <div>
+        <h1 class="text-[#b99272] text-xl mb-7">ABOUT US</h1>
+        <h1 class="text-3xl font-semibold my-5">
+          ORGANIC & FRESH COFFEE <br />PROVIDER CENTER
+        </h1>
+        <p>
+          Welcome to <b>Kofnein</b>, your go-to destination for the freshest
+          organic coffee. We are passionate aboutbringing you the finest,
+          ethically sourced coffee beans, ensuring every cup is rich in flavor
+          and quality. From farm to cup, we prioritize freshness, offering you
+          an exceptional coffee experience with every sip.
+        </p>
+        <p class="my-5">
+          Join us in celebrating the art of coffee—pure, organic, and brewed
+          with love. ☕🌿
+        </p>
+        <div
+          class="flex flex-row items-center gap-3 my-5 rounded-md p-2 bg-[#b99272] w-90"
+        >
+          <img
+            src="./images/cakji.jpg"
+            alt="cak ji"
+            class="w-14 h-14 rounded-full"
+          />
+          <p>
+            <b>Kofnein</b> is one of the most cozy coffee shop in Surabaya
+            <br />~ Cak Ji
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="./images/product.png" alt="" />
+      </div>
+    </div>
+
+    <!-- reason -->
+    <div
+      class="flex flex-row justify-center items-center text-white max-h-screen gap-20 p-5 bg-[#0e1317]"
+    >
+      <div>
+        <img src="./images/reason.jpg" alt="reason" class="w-svw float-end" />
+      </div>
+
+      <div>
+        <h1 class="text-[#b99272] text-xl">WHY CHOOSE US</h1>
+        <h1 class="font-bold text-3xl my-5">
+          New Surabaya Coffee Founded <br />For Extraordinary Test
+        </h1>
+        <p class="text-gray-400 font-normal my-7">
+          We are passionate aboutbringing you the finest, ethically sourced
+          coffee beans, ensuring every cup is rich in flavor and quality. From
+          farm to cup, we prioritize freshness, offering you an exceptional
+          coffee experience with every sip.
+        </p>
+        <div class="flex flex-row justify-center items-center gap-5 mt-5">
+          <img
+            src="./images/coffee-beans (1).png"
+            alt="beans"
+            class="w-16 h-16"
+          />
+          <div>
+            <h1 class="font-semibold text-xl">Natural Coffee Beans</h1>
+            <p class="text-gray-400 font-normal">
+              From farm to cup, we prioritize freshness, offering you an
+              exceptional coffee experience with every sip.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-row justify-center items-center gap-5 mt-5">
+          <img src="./images/coffee-cup.png" alt="coff-cup" class="w-16 h-16" />
+          <div>
+            <h1 class="font-semibold text-xl">Natural Coffee Beans</h1>
+            <p class="text-gray-400 font-normal">
+              From farm to cup, we prioritize freshness, offering you an
+              exceptional coffee experience with every sip.
+            </p>
+          </div>
+        </div>
+        <button class="px-5 py-2 my-10 font-semibold rounded-md bg-[#b99272]">
+          EXPLORE MORE <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- customer feedback -->
+    <div class="p-5 bg-[#0e1317] text-white min-h-screen text-center">
+      <div class="my-20">
+        <h1 class="text-[#b99272] text-xl mb-7">CUSTOMER FEEDBACK</h1>
+        <h1 class="text-3xl font-bold">What Our Clients Say</h1>
+      </div>
+      <!-- card -->
+      <div class="flex flex-row gap-10 justify-center p-10">
+        <div class="relative bg-[#24313c] p-7">
+          <div class="absolute -top-10 left-22">
+            <img
+              src="./images/cakji.jpg"
+              alt="cakji"
+              class="w-20 h-20 rounded-full"
+            />
+          </div>
+          <div class="flex flex-row justify-center items-center gap-1 my-5">
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            corrupti, illo doloremque quis reprehenderit
+          </p>
+          <p class="mt-5 font-bold text-lg">Cak Ji</p>
+          <p class="font-normal text-[#b99272]">Folk</p>
+        </div>
+        <div class="relative bg-[#24313c] p-7">
+          <div class="absolute -top-10 left-22">
+            <img
+              src="./images/cakji.jpg"
+              alt="cakji"
+              class="w-20 h-20 rounded-full"
+            />
+          </div>
+          <div class="flex flex-row justify-center items-center gap-1 my-5">
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            corrupti, illo doloremque quis reprehenderit
+          </p>
+          <p class="mt-5 font-bold text-lg">Cak Ji</p>
+          <p class="font-normal text-[#b99272]">Folk</p>
+        </div>
+        <div class="relative bg-[#24313c] p-7">
+          <div class="absolute -top-10 left-22">
+            <img
+              src="./images/cakji.jpg"
+              alt="cakji"
+              class="w-20 h-20 rounded-full"
+            />
+          </div>
+          <div class="flex flex-row justify-center items-center gap-1 my-5">
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            corrupti, illo doloremque quis reprehenderit
+          </p>
+          <p class="mt-5 font-bold text-lg">Cak Ji</p>
+          <p class="font-normal text-[#b99272]">Folk</p>
+        </div>
+        <div class="relative bg-[#24313c] p-7">
+          <div class="absolute -top-10 left-22">
+            <img
+              src="./images/cakji.jpg"
+              alt="cakji"
+              class="w-20 h-20 rounded-full"
+            />
+          </div>
+          <div class="flex flex-row justify-center items-center gap-1 my-5">
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+            <i class="fa-solid fa-star text-[#b99272]"></i>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            corrupti, illo doloremque quis reprehenderit
+          </p>
+          <p class="mt-5 font-bold text-lg">Cak Ji</p>
+          <p class="font-normal text-[#b99272]">Folk</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <div class="bg-[#0e1317] text-white p-5 min-h-screen">
+      <div class="my-10 text-center">
+        <h1 class="text-[#b99272] text-xl mb-7">GET EVERY SINGLE UPDATE</h1>
+        <h1 class="text-3xl font-bold">Read Some Latest Blog & News</h1>
+      </div>
+      <div class="flex flex-row justify-center items-center p-5 gap-7">
+        <div class="relative">
+          <img src="./images/blog.jpg" alt="blog" class="w-64 brightness-50" />
+          <div class="absolute bottom-2 left-2">
+            <h1 class="text-white font-semibold">
+              Most delicious coffee <br />in the world
+            </h1>
+            <div>
+              <a href="/" class="text-sm font-semibold text-[#b99272]">
+                READ MORE <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="./images/blog.jpg" alt="blog" class="w-64 brightness-50" />
+          <div class="absolute bottom-2 left-2">
+            <h1 class="text-white font-semibold">
+              Most delicious coffee <br />in the world
+            </h1>
+            <div>
+              <a href="/" class="text-sm font-semibold text-[#b99272]">
+                READ MORE <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="./images/blog.jpg" alt="blog" class="w-64 brightness-50" />
+          <div class="absolute bottom-2 left-2">
+            <h1 class="text-white font-semibold">
+              Most delicious coffee <br />in the world
+            </h1>
+            <div>
+              <a href="/" class="text-sm font-semibold text-[#b99272]">
+                READ MORE <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row justify-center items-center">
+        <a
+          href="/"
+          class="text-white px-6 py-3 rounded-md bg-[#b99272] my-10 font-bold"
+          >VIEW ALL <i class="fa-solid fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-[#0e1317] text-white min-h-screen">
+
+      <!--  -->
+      <div
+        class="bg-[url('./images/footer.jpg')] bg-cover bg-center h-64 brightness-75 mb-15"
+      >
+        <div class="flex flex-row justify-between items-center px-10 py-20">
+          <div>
+            <h1 class="text-[#b99272] mb-5">NEED A TABLE ON COFFEE HOUSE</h1>
+            <h1 class="font-semibold text-3xl">
+              Booking Table For Your & Family Members
+            </h1>
+          </div>
+
+          <div>
+            <a href="/" class="px-6 py-3 bg-[#b99272] rounded-md font-bold"
+              >BOOKING TABLE <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row justify-evenly items-start gap-20 p-5">
+        <div class="flex flex-row gap-3 items-center">
+          <img src="./images/coffee-beans.png" alt="logo" class="w-12 h-12" />
+          <h1 class="font-bold text-3xl">Kofnein</h1>
+        </div>
+        <div>
+          <h1 class="mb-5 text-2xl font-semibold">Working Hours</h1>
+          <li>Sunday - Thursday</li>
+          <li class="list-none text-[#b99272]">08:00 AM - 09:00 PM</li>
+          <li class="mt-5">Only Friday</li>
+          <li class="list-none text-[#b99272]">03:00 PM - 09:00 PM</li>
+          <p class="text-[#bb5538] mt-5 italic font-semibold">Saturday Close</p>
+        </div>
+        <div>
+          <h1 class="mb-5 text-2xl font-semibold">Contact Us</h1>
+          <li>Location:</li>
+          <li class="list-none text-[#b99272]">Ketintang PTT, Surabaya</li>
+          <li class="mt-5">Email Address:</li>
+          <li class="list-none text-[#b99272]">kofnein-sby@mail.com</li>
+          <li class="mt-5">Phone Number:</li>
+          <li class="list-none text-[#b99272]">+62 895 2427 3228</li>
+        </div>
+        <div>
+          <h1 class="mb-5 text-2xl font-semibold">Gallery</h1>
+          <div class="grid grid-cols-3 gap-2">
+            <img src="./images/images.jpg" alt="gallery" class="w-18 h-18" />
+            <img src="./images/images.jpg" alt="gallery" class="w-18 h-18" />
+            <img src="./images/images.jpg" alt="gallery" class="w-18 h-18" />
+            <img src="./images/images.jpg" alt="gallery" class="w-18 h-18" />
+            <img src="./images/images.jpg" alt="gallery" class="w-18 h-18" />
+            <img src="./images/images.jpg" alt="gallery" class="w-18 h-18" />
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3">
+        <hr />
+        <p class="mt-5 text-gray-400">
+          Copyright &copy 2025 <b>Kofnein.</b> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
